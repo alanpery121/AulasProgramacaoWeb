@@ -3,6 +3,11 @@ body {
 
 }
 
+section img {
+    width: 100%;
+    max-width: 300px;
+}
+
 header {
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
@@ -70,7 +75,13 @@ header li a {
 
 }
 
+.projetos-header {
+    float: left;
+}
 
+.styleprojetos {
+    margin-left: 40%;
+}
 
 .styleprojetos li{
     background-color: #6F768B;
@@ -85,6 +96,8 @@ header li a {
 .styleprojetos li p {
     color: #fff;
     margin: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
 }
 
 #Sobre p.text {
