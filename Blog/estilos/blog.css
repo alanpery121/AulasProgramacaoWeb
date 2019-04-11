@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-image: url(../imagens/star.jpg);
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+section img{
+    width: 100%;
+    max-width: 300px;
+    color: #fff;
+    padding: 1em;
+    border-radius: 75px;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+}
+
+header{
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;    
+    width: 100%;
+    height: 3em;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 5em;
+    border-radius: 75px;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    background-image: url(../imagens/star.jpg);
+}
+ header ul{
+     text-align: center;
+
+ }
+
+header li a{
+    
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header li a:hover{
+    color: gray;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 3em;
+}
+
+#contato h3 {
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 5em;
+    border-radius: 75px;
+    border-top: 3px solid #ccc;
+   
+    
+}
+
+#contato li {
+    display: inline-block;
+    
+}
+
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email{
+    background-image: url("../imagens/gmail.png");  
+}
+
+#contato .facebook{
+    background-image: url("../imagens/facebook.png");
+}
+
+#contato .instagram{
+    background-image: url("../imagens/instagram.png");
+}
+
+#contato .github{
+    background-image: url("../imagens/github.png")
+}
+
+#contato .linkedin{
+    background-image: url("../imagens/linkedin.png");
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
+}
+
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 5em;
+    border-radius: 75px;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+}
+
+.identificacao{
+    
+    color: #fcfcfd;
+    padding: 10em 2em 7em;
+    
+}
+
+.identificacao h1{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+    color: #000000;
+    
+    
+}
+
+.identificacao h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #000000;
+}
+
+section h3{
+    font-size: 1.7em;
+    color: #fff;
+    padding: 1em;
+    border-radius: 75px;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+}
+
+header li a{
+    color: #99a0b0;
+    font-weight: lighter;
+}
+
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+#sobre p.bio {
+    color: #000000;
+    font-size: 2em;
+    margin: 1em;
+    width: 50%;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 30px;
+}
+
+#sobre{
+    position: relative;
+
+}
+
+#sobre img{
+    width: 200px;
+    position: absolute;
+    top: 2em;
+    right: 10%;
+
+}
+
+.escuras {
+    background-image: url(../imagens/sol.jpg);;
+    color: #fcfcfd;
+    background-attachment: fixed;    
+}
+
+.claras1{
+    
+    
+
+
+
+}
+
+.projetos-header{
+    float: left;
+    width: 30%;
+    border-radius: 75px;
+    border-bottom: 3px solid #ccc;
+    
+    
+}
+
+.projetos-header h3{
+    margin-top: 1em;
+    
+}
+
+.styleprojetos{
+    margin-left: 30%;
+}
+
+.styleprojetos li{
+    border-radius: 75px;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    padding: 1em;
+    margin-bottom: 2em;
+    
+    
+}
+
+.styleprojetos li p{
+    color: #fff;
+    margin-top: 0.5em;
+    text-align: center;    
+    line-height: 2;
+    
+}
+
+.styleprojetos li a{
+  color: #ffffff;
+  font-size: 1.3em;
+  
+}
+
+.styleprojetos li a:hover{
+    color:  blue;
+    font-size: 1.3em;
+  }
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 75px;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+  
+}
+footer p {
+    color: #000000;
+}
+
+
+
+    
