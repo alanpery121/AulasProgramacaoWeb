@@ -10,25 +10,31 @@
 <body>
     <?php
         require_once '../../view/nav.php';
+        require_once 'usuarioDAO.php';
     ?>
 
     <div class="container">
     <div class="row justify-content-center bg-light">
             <form action="usuarioDAO.php" method="POST">
+            <input type="hidden" name="id" VALUE="<?php echo $id ?>">
+
                 <div class="form-group">
                     <label>Usúaio<label>
-                    <input type="text" class="form-control" name="usuario" id="usuario">
+                    <input type="text" class="form-control" VALUE="<?php echo $usuario ?>" name="usuario" id="usuario">
                 </div>
 
                 <div class="form-group">
                     <label>Senha<label>
-                    <input type="password" class="form-control" name="senha" id="senha">
+                    <input type="password" class="form-control" VALUE="<?php echo $senha ?>"name="senha" id="senha">
                 </div>
 
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary" name="salvar">Salvar</button>
-                    
+                    <?php if($id != 0) :?>
+                     <button type="submit" class="btn btn-info" name="atualizar">Atualizar</button>
+                    <?php else : ?>
+                        <button type="submit" class="btn btn-primary" name="salvar">Salvar</button>
+                    <?php endif; ?>
                 </div>
 
             </form>
@@ -58,7 +64,7 @@
                         <td><?php echo $row['usuario']; ?> </td>
                         <td><?php echo $row['senha']; ?></td>
                         <td>
-                            <a href="" class="btn btn-info">Editar</a>
+                            <a href="usuario.php?editar=<?php echo $row['id']; ?>" class="btn btn-info">Editar</a>
                             <a href="usuarioDAO.PHP?excluir=<?php echo $row['id']; ?>" class="btn btn-danger">Excluir</a>
                         </td>
                     </tr>
